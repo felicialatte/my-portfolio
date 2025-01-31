@@ -58,6 +58,7 @@
   .about-paragraphs {
     display: flex;
     margin: 30px 0;
+    text-align: center;
   }
   
   .about-paragraphs p {
@@ -88,18 +89,39 @@
   
 
   @media (max-width: 576px) {
-    h1 {
-    font-size: 48px;
-    margin-bottom: 15px;
+    .mobile-h1 {
+    font-size: 58px;
+    margin-bottom: 8px;
       }
+    
+    .mobile-h2 {
+      font-size: 30px;
+    }
 
-    .mobile {
+    .mobile-h3 {
+      font-size: 20px;
+      margin: 0 10px;
+    }
+
+    .mobile-link {
     text-align: center;
     display: block;
     margin: 0 20px
-}
+      }
 
-    .portfolio-photo {
-        display: none;
+    .about-page {
+    text-align: center;
+    display: block;
+      }
+
+    .about-image {
+      width: 90%;
+      display: block;
+      margin: 0 auto;
+      margin-bottom: 20px;
+    }
+
+    .about-link {
+      font-size: 20px;
     }
   }
