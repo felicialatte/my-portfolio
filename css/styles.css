@@ -86,3 +86,15 @@
     box-shadow: var(--box-shadow);
   }
   
+
+  @media (max-width: 576px) {
+    .mobile {
+    text-align: center;
+    display: block;
+    margin: 0 20px
+}
+
+    .portfolio-photo {
+        display: none;
+    }
+  }
