@@ -88,6 +88,11 @@
   
 
   @media (max-width: 576px) {
+    h1 {
+    font-size: 48px;
+    margin-bottom: 15px;
+      }
+
     .mobile {
     text-align: center;
     display: block;
