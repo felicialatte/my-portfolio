@@ -8,14 +8,6 @@
     max-width: 100%;
   }
   
-  h1 {
-    font-size: 96px;
-  }
-  
-  h2 {
-    font-size: 48px;
-  }
-  
   h3 {
     font-size: 24px;
     opacity: 0.7;
@@ -90,7 +82,7 @@
 
   @media (max-width: 576px) {
     .mobile-h1 {
-    font-size: 58px;
+    font-size: 50px;
     margin-bottom: 8px;
       }
     
@@ -100,7 +92,6 @@
 
     .mobile-h3 {
       font-size: 20px;
-      margin: 0 10px;
     }
 
     .mobile-link {
@@ -123,5 +114,15 @@
 
     .about-link {
       font-size: 20px;
+    }
+  }
+
+  @media (min-width: 576px) {
+    .huge-h1 {
+      font-size: 85px;
+    }
+
+    .huge-h2 {
+        font-size: 48px;
     }
   }
